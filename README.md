@@ -27,10 +27,8 @@ cd ~
 git init
 git remote add origin https://github.com/w1zdun/dotfiles.git
 git pull origin master
-git submodule init
-git sumbodule update
+git submodule update --init --recursive
 ```
-
 
 ## Acknowledgments
 
