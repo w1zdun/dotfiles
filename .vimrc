@@ -282,6 +282,7 @@ let g:tagbar_sort = 0
 au BufNewFile,BufRead *.tac setl ft=python " .tac files are used in twisted
 au BufNewFile,BufRead *.json setl ft=javascript
 au BufNewFile,BufRead *.txt setl ft=text
+au BufNewFile,BufReadPost *.md set filetype=markdown
 
 
 " ============================================================================
