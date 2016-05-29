@@ -2,9 +2,13 @@
 !.gitignore
 !.gitconfig
 !.gitmodules
+!.vim
+!.vim/*
 !.vim/**/*
 !.vimrc
 !.tmux.conf
+!.mutt
+!.mutt/*
 !.mutt/**/*
 !.mailcap
 !.muttrc
