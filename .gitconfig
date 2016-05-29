@@ -5,5 +5,3 @@
 	editor = vim
 [color]
 	ui = true
-[push]
-	default = simple

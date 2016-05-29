@@ -282,3 +282,15 @@ let g:tagbar_sort = 0
 au BufNewFile,BufRead *.tac setl ft=python " .tac files are used in twisted
 au BufNewFile,BufRead *.json setl ft=javascript
 au BufNewFile,BufRead *.txt setl ft=text
+
+
+" ============================================================================
+" Terminal detection
+" ============================================================================
+if &term == "xterm-issh"
+  nnoremap <Tab> <Esc>
+  vnoremap <Tab> <Esc>gV
+  onoremap <Tab> <Esc>
+  inoremap <Tab> <Esc>`^
+  inoremap <Leader><Tab> <Tab>
+endif

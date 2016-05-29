@@ -4,4 +4,7 @@
 !.vim/**/*
 !.vimrc
 !.tmux.conf
+!.mailcap
+!.muttrc
+!.zshrc
 !README.md
