@@ -23,7 +23,7 @@ set clipboard=unnamed
 
 " Mouse and backspace
 set bs=2     " make backspace behave like normal again
-set mouse=a " enable mouse
+"set mouse=a " enable mouse
 
 
 " Rebind <Leader> key
