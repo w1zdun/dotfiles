@@ -1,4 +1,4 @@
-# Dotfiles.
+# Dotfiles
 
 Dotfiles for:
  * Vim
