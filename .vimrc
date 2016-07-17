@@ -252,6 +252,14 @@ nmap <F8> :TagbarToggle<CR>
 " Sorted according to their order in the source file
 let g:tagbar_sort = 0
 
+" Tags for Ansible
+let g:tagbar_type_ansible = {
+    \ 'ctagstype' : 'ansible',
+    \ 'kinds' : [
+        \ 't:tasks'
+    \ ],
+    \ 'sort' : 0
+\ }
 
 " Vim viwki
 " cd ~/.vim/bundle
