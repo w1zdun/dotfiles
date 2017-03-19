@@ -160,9 +160,9 @@ set laststatus=2
 " Color scheme
 " cd ~/.vim/bundle/
 " git clone https://github.com/altercation/vim-colors-solarized
-set t_Co=16
+set t_Co=256
 set background=dark
-let g:solarized_termcolors=16
+let g:solarized_termcolors=256
 colorscheme solarized
 
 
@@ -266,6 +266,9 @@ let g:tagbar_type_ansible = {
 " git clone https://github.com/vimwiki/vimwiki.gi://github.com/vimwiki/vimwiki.git
 " command: VimwikiAll2HTML
 
+" ansible_vim
+let g:ansible_name_highlight = 'b'
+let g:ansible_extra_keywords_higlight = 1
 
 " Vim Move
 " cd ~/.vim/bundle
