@@ -43,3 +43,6 @@
 [submodule ".mutt/mutt-colors-solarized"]
 	path = .mutt/mutt-colors-solarized
 	url = https://github.com/altercation/mutt-colors-solarized.git
+[submodule ".vim/bundle/vim-terraform"]
+    path =  .vim/bundle/vim-terraform
+    url = https://github.com/hashivim/vim-terraform.git
