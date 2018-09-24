@@ -275,6 +275,17 @@ let g:ansible_extra_keywords_higlight = 1
 " git clone https://github.com/matze/vim-move.git
 " let g:move_key_modifier = 'C'
 
+" vim-airline
+let g:Powerline_symbols='unicode'
+
+" tmuxline
+let g:tmuxline_separators = {
+    \ 'left' : '',
+    \ 'left_alt': '>',
+    \ 'right' : '',
+    \ 'right_alt' : '<',
+    \ 'space' : ' '}
+
 
 " ============================================================================
 " My functions
