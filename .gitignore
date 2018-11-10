@@ -2,9 +2,9 @@
 !.gitignore
 !.gitconfig
 !.gitmodules
-!.vim
-!.vim/*
-!.vim/**/*
+!.vim/autoload/*
+!.vim/spell/*
+!.vim/ftplugin/*
 !.vimrc
 !.tmux.conf
 !.mutt
