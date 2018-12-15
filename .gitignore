@@ -3,6 +3,7 @@
 !.gitconfig
 !.gitmodules
 !.vim
+!.vim/*
 !.vim/autoload/*
 !.vim/spell/*
 !.vim/ftplugin/*
