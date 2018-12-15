@@ -4,6 +4,7 @@
 !.gitmodules
 !.vim
 !.vim/*
+!.vim/**/*
 !.vim/autoload/*
 !.vim/spell/*
 !.vim/ftplugin/*
