@@ -3,8 +3,7 @@
 	email = michal.gawlik@sas.com
 [core]
 	editor = vim
-#	autocrlf = input
-	autocrlf = true
+	autocrlf = input
 [color]
 	ui = true
 [push]
