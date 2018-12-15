@@ -6,6 +6,7 @@
 !.vim/spell/*
 !.vim/ftplugin/*
 !.vim/bundle/*
+!.vim/bundle/**/*
 !.vimrc
 !.tmux.conf
 !.mutt
